@@ -3,24 +3,45 @@
     "travelerName": "Caleb Hickey",
     "contactInfo": {
         "phone": 8169991234,
-        "email": "caleb.hickey@icloud.com",
+        "email": "caleb.hickey@icloud.com"
         },
     "destinations": [
         {
             "location": "Tokyo",
             "arrivalDate": "2025-08-01",
             "departureDate": "2025-08-31",
+            "transportation": {
+                "mode": "flight",
+                "cost": "500"
+            }
         },
             {
             "location": "Athens",
             "arrivalDate": "2025-09-01",
             "departureDate": "2025-09-30",
+            "transportation": {
+                "mode": "train",
+                "cost": "175"
+            }
         },
             {
             "location": "Honolulu",
             "arrivalDate": "2025-10-01",
             "departureDate": "2025-10-31",
-        }
+            "transportation": {
+               "mode": "boat",
+                "cost": "300"
+            }
+        },
+            {
+            "location": "Paris",
+            "arrivalDate": "2025-06-01",
+            "departureDate": "2025-06-31",
+            "transportation": {
+               "mode": "train",
+                "cost": "250"
+            }
+            }
     ],
     "activities": [
         {
@@ -34,6 +55,10 @@
         {
             "name": "Parasailing",
             "time": "10:30"
+        },
+        {
+            "name": "Bus tour",
+            "time": "11:00"
         }
     ]
 
